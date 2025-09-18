@@ -1,4 +1,5 @@
-# Website Monitoring + URL Shortener
+# StackWatch 
+## Website Monitoring + URL Shortener
 
 A small monorepo with three packages:
 - Backend (Express + TypeScript): URL shortener and basic website monitoring (pings URLs periodically and records status, latency, and size) with integrated logging middleware.
