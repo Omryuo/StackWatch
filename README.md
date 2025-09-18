@@ -58,6 +58,22 @@ Open http://localhost:3000
   - Both backend and frontend call `logging-middleware` to log events
   - By default, remote logging is skipped locally to avoid 401s
 
+## Process Experience (Generalized)
+
+- Project Organization: Worked within a structured full-stack setup consisting of separate frontend, backend, and shared utility modules, ensuring clean boundaries and modularity.
+
+- Environment Setup: Installed dependencies, configured TypeScript, and set up build scripts for both client and server to run smoothly in a local development environment.
+
+- Frontend Development: Built interactive UI components with React, TypeScript, and Material-UI, applying strict typing, component reusability, and consistent styling practices.
+
+- Backend Development: Implemented APIs using Node.js and Express, integrated middleware for cross-cutting concerns, and ensured the responses followed a predictable JSON contract.
+
+- Integration: Connected frontend and backend through REST APIs, handled state updates from server responses, and tested the end-to-end flow in the browser.
+
+- Debugging & Testing: Resolved environment compatibility issues, dependency conflicts, and type errors. Validated both individual modules and overall system flow.
+
+- Outcome: Delivered a fully functional, locally runnable full-stack application with clear separation of concerns, robust error handling, and a polished user experience.
+
 ## API Examples
 Start monitoring 3 URLs:
 ```bash
